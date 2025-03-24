@@ -8,6 +8,9 @@ class Node:
 
 class Tree:
     
+    # def __init__(self,root):
+    #     self.root=root;
+    
     def add_node(self,root,data):
         
         if data > root.data:
